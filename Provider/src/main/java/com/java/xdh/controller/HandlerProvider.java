@@ -76,6 +76,30 @@ public class HandlerProvider {
         return order;
     }
 
+    /**
+     * 配置分组访问的方法
+     * @return
+     */
+    @GetMapping("/api1/demo1")
+    public String demo1(){
+        return "demo";
+    }
+
+    @GetMapping("/api1/demo2")
+    public String demo2(){
+        return "demo";
+    }
+
+    @GetMapping("/api2/demo1")
+    public String demo3(){
+        return "demo";
+    }
+
+    @GetMapping("/api2/demo2")
+    public String demo4(){
+        return "demo";
+    }
+
 
 
 
